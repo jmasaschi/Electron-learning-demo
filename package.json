@@ -1,0 +1,20 @@
+{
+  "name": "electron-learning-demo",
+  "version": "1.0.0",
+  "description": "Learning to use electron and make a screen capture app",
+  "homepage": "https://github.com/jmasaschi/Electron-learning-demo#readme",
+  "bugs": {
+    "url": "https://github.com/jmasaschi/Electron-learning-demo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmasaschi/Electron-learning-demo.git"
+  },
+  "license": "ISC",
+  "author": "Jake Masaschi",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
