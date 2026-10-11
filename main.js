@@ -75,7 +75,7 @@ app.whenReady().then(() => {
         const img = screens[0].thumbnail.toPNG();
         const timestamp = new Date().toISOString().replace(/:/g, '-');
         const fileName = `screenshot-${timestamp}.png`;
-        const filePath = path.join(__dirname, fileName);
+        const filePath = path.join(os.homedir(), fileName);
 
         fs.writeFile(filePath, img, (err) => {
             shell.openExternal(`file://${filePath}`)
